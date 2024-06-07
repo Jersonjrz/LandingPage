@@ -19,6 +19,7 @@ h6 {
     @apply font-primary text-primary;
 }
 
+
 .h1 {
     @apply text-[64px] lg:text-[84px] leading-none;
 }
@@ -36,7 +37,7 @@ h6 {
 }
 
 .btn-primary {
-    @apply bg-gray-700 hover:bg-accent-hover;
+    @apply bg-gray-700 hover:bg-accent-hover mx-auto xl:mx-0;
 }
 
 .nav-is-open {
@@ -46,3 +47,88 @@ h6 {
 .steps {
     @apply text-center;
 }
+
+.burger{
+    @apply text-4xl text-primary;
+}
+
+.listmenu {
+    @apply fixed w-full h-0 p-0 bg-white;
+}
+
+.container {
+    @apply mx-auto;
+}
+
+.imposter {
+    @apply mx-auto;
+}
+
+.main{
+    @apply max-w-[1920px] mx-auto bg-white overflow-hidden;
+}
+
+.grid3{
+    @apply grid grid-cols-1 gap-12 xl:grid-cols-3;
+}
+
+.icons{
+    @apply text-5xl text-accent;
+}
+
+.buttonread{
+    @apply font-medium flex justify-center gap-2;
+}
+
+.mb5{
+    @apply mb-5;
+}
+
+.mb4{
+    @apply mb-4;
+}
+
+.picons{
+    @apply mb-5 max-w-md mx-auto;
+}
+
+.arrow1{
+    @apply text-accent;
+}
+
+.arrow2{
+    @apply text-3xl text-primary pl-1;
+}
+
+.medsections{
+    @apply mt-[80px] xl:mt-[200px] relative z-20;
+}
+
+.medsections2{
+    @apply mt-[80px] xl:mt-[150px] relative z-20;
+}
+
+.medimg{
+    @apply w-full max-w-[548px] h-full mx-auto;
+}
+
+.medtitle{
+    @apply flex justify-between items-center w-full;
+}
+
+.roundedbutton{
+    @apply bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full;
+}
+
+.borders {
+    @apply stats__item text-center xl:border-r xl:border-accent;
+}
+
+.bordersnocolor {
+    @apply stats__item text-center xl:border-r1;
+}
+
+.cards{
+    @apply w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursosr-pointer mx-auto xl:mx-0;
+}
+

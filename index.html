@@ -18,7 +18,7 @@
 <body class="bg-gray-100">
     <!-- header -->
     <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
-        <div class="container mx-auto flex justify-between h-full items-center">
+        <div class="container flex justify-between h-full items-center">
             <!-- logo -->
             <a href="#">
                 <img src="img/logo.svg">
@@ -27,9 +27,9 @@
             <nav class="main-nav" aria-label="Main">
                 <!-- nav mobile trigger -->
                 <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
-                    <i class="ri-menu-4-line text-4xl text-primary"></i>
+                    <i class="ri-menu-4-line burger"></i>
                 </div>
-                <ul class="main-nav_list fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex felx-col gap-4 lg:relative lg:flex-row lf:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300" id="nav_menu">
+                <ul class="main-nav_list fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lf:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300" id="nav_menu">
                     <li class="main-nav_item">
                         <a href="#">Home</a>
                     </li>
@@ -52,21 +52,21 @@
             </nav>
         </div>
     </header>
-    <div class="container mx-auto">
+    <div class="container">
         <!-- page wrapper-->
-        <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+        <main class="main">
             <!-- grid img -->
             <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"></div>
             <!-- hero -->
             <section class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
-                <div class="container mx-auto h-full flex items-center justify-center xl:justify-start">
+                <div class="container h-full flex items-center justify-center xl:justify-start">
                     <!-- text -->
                     <div class="hero__text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start">
                         <h1 class="h1 mb-8">Let Your Home Be Unique</h1>
                         <p class="mb-8">
                             There are many variations of the passages of Lorem Ipsum frome available, variations of the passages.
                         </p>
-                        <a href="#" class="button btn btn-primary mx-auto xl:mx-0">
+                        <a href="#" class="button btn btn-primary">
                             <span class="button_body">
                                 Get free estimation
                                 <i class="ri-arrow-right-line text-accent"></i>
@@ -76,57 +76,57 @@
                 </div>
             </section>
             <!-- steps -->
-            <section class="steps mt-[80px] xl:mt-[200px] relative z-20">
-                <div class="container mx-auto">
+            <section class="steps medsections">
+                <div class="container">
                     <!-- grid items -->
-                    <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
+                    <div class="grid3">
                         <!-- step 1-->
                         <div class="steps">
-                            <div class="mb-4">
-                                <i class="ri-compasses-2-line text-5xl text-accent"></i>
+                            <div class="mb4">
+                                <i class="ri-compasses-2-line icons"></i>
                             </div>
-                            <h3 class="h3 mb-5">Project Planning</h3>
-                            <p class="mb-5 max-w-md mx-auto">There are many variations of the passages of Lorem Ipsum from available, majority.</p>
-                            <a href="#" class="font-medium flex justify-center gap-2">
+                            <h3 class="h3 mb5">Project Planning</h3>
+                            <p class="picons">There are many variations of the passages of Lorem Ipsum from available, majority.</p>
+                            <a href="#" class="buttonread">
                                 <span class="button_body">
                                     Read more
-                                    <i class="ri-arrow-right-line text-accent"></i>
+                                    <i class="ri-arrow-right-line arrow1"></i>
                                 </span>                         
                             </a>
                         </div>
                         <!-- step 2-->
                         <div class="steps">
-                            <div class="mb-4">
-                                <i class="ri-magic-line text-5xl text-accent"></i>
+                            <div class="mb4">
+                                <i class="ri-magic-line icons"></i>
                             </div>
-                            <h3 class="h3 mb-5">Gaining Materials</h3>
-                            <p class="mb-5 max-w-md mx-auto">There are many variations of the passages of Lorem Ipsum from available, majority.</p>
-                            <a href="#" class="font-medium flex justify-center gap-2">
+                            <h3 class="h3 mb5">Gaining Materials</h3>
+                            <p class="picons">There are many variations of the passages of Lorem Ipsum from available, majority.</p>
+                            <a href="#" class="buttonread">
                                 <span class="button_body">
                                     Read more
-                                    <i class="ri-arrow-right-line text-accent"></i>
+                                    <i class="ri-arrow-right-line arrow1"></i>
                                 </span>                         
                             </a>
                         </div>
                         <!-- step 3-->
                         <div class="steps">
-                            <div class="mb-4">
-                                <i class="ri-tools-line text-5xl text-accent"></i>
+                            <div class="mb4">
+                                <i class="ri-tools-line icons"></i>
                             </div>
-                            <h3 class="h3 mb-5">Project Execution</h3>
-                            <p class="mb-5 max-w-md mx-auto">There are many variations of the passages of Lorem Ipsum from available, majority.</p>
-                            <a href="#" class="font-medium flex justify-center gap-2">
+                            <h3 class="h3 mb5">Project Execution</h3>
+                            <p class="picons">There are many variations of the passages of Lorem Ipsum from available, majority.</p>
+                            <a href="#" class="buttonread">
                                 <span class="button_body">
                                     Read more
-                                    <i class="ri-arrow-right-line text-accent"></i>
+                                    <i class="ri-arrow-right-line arrow1"></i>
                                 </span>                         
                             </a>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="about mt-[80px] xl:mt-[200px] relative z-20">
-                <div class="container mx-auto xl:px-0">
+            <section class="about medsections">
+                <div class="container xl:px-0">
                     <div class="flex flex-col xl:flex-row text-center xl:text-left justify-beetween items-center gap-8 xl:gap-[74px]">
                     <!-- text -->
                     <div class="flex-1 order-2 xl:order-none max-w-xl xl:max-w-[410px] flex flex-col items-center xl:items-start gap-8">
@@ -137,17 +137,17 @@
                         <!-- phone -->
                         <div div="flex items-center justify-center xl:justify-start gap-4">
                             <div class="bg-accent/15 w-[93px] h-[93px] rounded-full flex justify-center items-center">
-                                <i class="ri-phone-fill text-accent text-4xl"></i>
+                                <i class="ri-phone-fill icons"></i>
                             </div>
                             <div class="text-left">
                                 <div class="text-2xl font-bold">0987 654 321</div>
                                 <div>Call Us Anytime</div>
                             </div>
                         </div>
-                        <a href="#" class="button btn btn-primary mx-auto xl:mx-0">
+                        <a href="#" class="button btn btn-primary">
                             <span class="button_body">
                                 Get free estimation
-                                <i class="ri-arrow-right-line text-accent"></i>
+                                <i class="ri-arrow-right-line arrow1"></i>
                             </span>                         
                         </a>
                     </div>
@@ -159,8 +159,8 @@
                 </div>
             </section>
             <!-- testimonials -->
-             <section class="testimonial mt-[80px] xl:mt-[200px] relative z-20">
-                <div class="testimonial__bg container mx-auto bg-accent-secondary rounded-[70px] px-6">
+             <section class="testimonial medsections">
+                <div class="testimonial__bg container bg-accent-secondary rounded-[70px] px-6">
                     <div class="flex flex-col items-center pt-[88px] pb-[110px]"> 
                         <h2 class="testimonial__title h2 mb-9 text-center">What clients say</h2>                   
                     <!-- slider -->
@@ -209,8 +209,8 @@
                 </div>
              </section>
              <!-- brands -->
-             <section class="brands mt-[80px] xl:mt-[200px] relative z-20">
-                <div class="container mx-auto">
+             <section class="brands medsections">
+                <div class="container">
                     <div class="flex flex-col xl:flex-row justify-between items-center gap-12">
                         <img class="brands__img" src="img/01.svg" alt="">
                         <img class="brands__img" src="img/02.svg" alt="">
@@ -221,8 +221,8 @@
                 </div>
              </section>
              <!-- work -->
-              <section class="work mt-[80px] xl:mt-[150px] relative z-20">
-                <div class="container mx-auto xl:px-0">
+              <section class="work medsections2">
+                <div class="container xl:px-0">
                     <div class="text-center mb-24">
                         <h2 class="h2 mb-4">Follow Our Projects</h2>
                             <p class="max-w-3xl mx-auto">
@@ -232,46 +232,46 @@
                     <!-- grid -->
                      <div class="work__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px] gap-y-[56px]">
                         <!-- item 1-->
-                        <div class="w-full max-w-[548px] h-full mx-auto">
+                        <div class="medimg">
                             <img class="mb-6" src="img/work01.png" alt="">                        
-                        <div class="flex justify-between items-center w-full">
+                        <div class="medtitle">
                         <div>                            
                             <h3 class="h3">Modern Kitchen</h3>
                             <p>Decor/Architecture</p>
                         </div>
-                        <a href="#" class="button bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full">
+                        <a href="#" class="button roundedbutton">
                             <span class="button_body">
-                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                <i class="ri-arrow-right-s-line arrow2"></i>
                             </span>                         
                         </a>
                         </div>
                         </div>
                         <!-- item 2-->
-                        <div class="w-full max-w-[548px] h-full mx-auto">
+                        <div class="medimg">
                             <img class="mb-6" src="img/work02.png" alt="">                        
-                        <div class="flex justify-between items-center w-full">
+                        <div class="medtitle">
                         <div>                            
                             <h3 class="h3">Modern Kitchen</h3>
                             <p>Decor/Architecture</p>
                         </div>
-                        <a href="#" class="button bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full">
+                        <a href="#" class="button roundedbutton">
                             <span class="button_body">
-                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                <i class="ri-arrow-right-s-line arrow2"></i>
                             </span>                         
                         </a>
                         </div>
                         </div>
                         <!-- item 3-->
-                        <div class="w-full max-w-[548px] h-full mx-auto">
+                        <div class="medimg">
                             <img class="mb-6" src="img/work03.png" alt="">                        
-                        <div class="flex justify-between items-center w-full">
+                        <div class="medtitle">
                         <div>                            
                             <h3 class="h3">Modern Kitchen</h3>
                             <p>Decor/Architecture</p>
                         </div>
-                        <a href="#" class="button bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full">
+                        <a href="#" class="button roundedbutton">
                             <span class="button_body">
-                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                <i class="ri-arrow-right-s-line arrow2"></i>
                             </span>                         
                         </a>
                         </div>
@@ -279,14 +279,14 @@
                         <!-- item 4-->
                         <div class="w-full max-w-[548px] h-full mx-auto">
                             <img class="mb-6" src="img/work04.png" alt="">                        
-                        <div class="flex justify-between items-center w-full">
+                        <div class="medtitle">
                         <div>                            
                             <h3 class="h3">Modern Kitchen</h3>
                             <p>Decor/Architecture</p>
                         </div>
-                        <a href="#" class="button bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full">
+                        <a href="#" class="button roundedbutton">
                             <span class="button_body">
-                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                <i class="ri-arrow-right-s-line arrow2"></i>
                             </span>                         
                         </a>
                         </div>
@@ -295,32 +295,32 @@
                 </div>
               </section>
               <section class="stats mt-[80px] xl:mt-[150px] relative z-20 bg-accent-secondary py-[80px] xl:py-[150px]">
-                <div class="container mx-auto">
+                <div class="container">
                     <!-- grid -->
                      <div class="grid grid-cols-1 xl:grid-cols-4 gap-12">
                     <!-- grid items -->
-                        <div class="stats__item text-center xl:border-r xl:border-accent">
+                        <div class="borders">
                             <h3 class="h1 font-primary text-accent">12</h3>
                             <p>Year Of experience</p>
                         </div>
                      
                     <!-- grid items -->
                     
-                        <div class="stats__item text-center xl:border-r xl:border-accent">
+                        <div class="borders">
                             <h3 class="h1 font-primary text-accent">85</h3>
                             <p>Projects Completed</p>
                         </div>
                    
                     <!-- grid items -->
                  
-                        <div class="stats__item text-center xl:border-r xl:border-accent">
+                        <div class="borders">
                             <h3 class="h1 font-primary text-accent">15</h3>
                             <p>Active Projects</p>
                         </div>
                     
                     <!-- grid items -->
                  
-                        <div class="stats__item text-center xl:border-r1">
+                        <div class="bordersnocolor">
                             <h3 class="h1 font-primary text-accent">95</h3>
                             <p>Happy Customers</p>
                         </div>
@@ -328,8 +328,8 @@
                 </div>
               </section>
               <!-- news -->
-               <section class="news mt-[80px] xl:mt-[150px] relative z-20">
-                    <div class="container mx-auto px-0">
+               <section class="news medsections2">
+                    <div class="container px-0">
                         <!-- text -->
                          <div class="max-w-[810px] mx-auto text-center mb-[52px]">
                             <h2 class="news__title h2 mb-3">Articles & News</h2>
@@ -350,7 +350,7 @@
                                         <p class="text-base">22 June, 2024</p>
                                         <a href="#" class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all">
                                             <span class="button_body">                                               
-                                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                                <i class="ri-arrow-right-s-line arrow2"></i>
                                             </span>                         
                                         </a>
                                     </div>
@@ -367,7 +367,7 @@
                                         <p class="text-base">22 June, 2024</p>
                                         <a href="#" class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all">
                                             <span class="button_body">                                               
-                                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                                <i class="ri-arrow-right-s-line arrow2"></i>
                                             </span>                         
                                         </a>
                                     </div>
@@ -384,7 +384,7 @@
                                         <p class="text-base">22 June, 2024</p>
                                         <a href="#" class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all">
                                             <span class="button_body">                                               
-                                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                                <i class="ri-arrow-right-s-line arrow2"></i>
                                             </span>                         
                                         </a>
                                     </div>
@@ -394,7 +394,7 @@
                     </div>
                </section>
                <section class="contact mt-[80px] xl:mt-[150px] relative z-20">
-                
+
                </section>
         <!-- temporary div-->
         <div class="h-[3000px]"></div>
