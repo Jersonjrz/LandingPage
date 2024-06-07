@@ -11,8 +11,10 @@
         <!-- FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 <body class="bg-gray-100">
     <!-- header -->
     <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
@@ -156,9 +158,253 @@
                     </div>                  
                 </div>
             </section>
+            <!-- testimonials -->
+             <section class="testimonial mt-[80px] xl:mt-[200px] relative z-20">
+                <div class="testimonial__bg container mx-auto bg-accent-secondary rounded-[70px] px-6">
+                    <div class="flex flex-col items-center pt-[88px] pb-[110px]"> 
+                        <h2 class="testimonial__title h2 mb-9 text-center">What clients say</h2>                   
+                    <!-- slider -->
+                     <div class="w-full">
+                        <div class="testimonial__slider swiper n-[400px]">
+                            <div class="swiper-wrapper">
+                                <!-- slides 1 -->
+                                 <div class="swiper-slide">
+                                    <!-- item -->
+                                     <div class="testimonial__item w-full max-w-[370px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto">
+                                       <div class="flex gap-4 mb-6">
+                                        <img src="img/01.png" alt="" />
+                                        <div>
+                                            <h3 class="h3">Nattasha Mith</h3>
+                                            <div>Greenville, USA</div>
+                                        </div>
+                                       </div>
+                                       <p>
+                                        Lorem Ipsum is simply dumy text of the typesetting industry. Ipsum has been.
+                                       </p>
+                                     </div>
+                                 </div>   
+                                <!-- slides 2 -->
+                                <div class="swiper-slide">
+                                    <!-- item -->
+                                     <div class="testimonial__item w-full max-w-[370px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto">
+                                       <div class="flex gap-4 mb-6">
+                                        <img src="img/02.png" alt="" />
+                                        <div>
+                                            <h3 class="h3">Nattasha Mith</h3>
+                                            <div>Greenville, USA</div>
+                                        </div>
+                                       </div>
+                                       <p>
+                                        Lorem Ipsum is simply dumy text of the typesetting industry. Ipsum has been.
+                                       </p>
+                                     </div>
+                                 </div>
+                            </div>
+                            <!-- swiper pagination -->
+                             <div class="swiper-paginatino">
+                             </div>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+             </section>
+             <!-- brands -->
+             <section class="brands mt-[80px] xl:mt-[200px] relative z-20">
+                <div class="container mx-auto">
+                    <div class="flex flex-col xl:flex-row justify-between items-center gap-12">
+                        <img class="brands__img" src="img/01.svg" alt="">
+                        <img class="brands__img" src="img/02.svg" alt="">
+                        <img class="brands__img" src="img/03.svg" alt="">
+                        <img class="brands__img" src="img/logo.svg" alt="">
+                        <img class="brands__img" src="img/05.svg" alt="">
+                    </div>
+                </div>
+             </section>
+             <!-- work -->
+              <section class="work mt-[80px] xl:mt-[150px] relative z-20">
+                <div class="container mx-auto xl:px-0">
+                    <div class="text-center mb-24">
+                        <h2 class="h2 mb-4">Follow Our Projects</h2>
+                            <p class="max-w-3xl mx-auto">
+                                It is a long established fact that a reader will be distracted by the of readable content of page lookings at its layouts points.
+                            </p>                        
+                    </div>
+                    <!-- grid -->
+                     <div class="work__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px] gap-y-[56px]">
+                        <!-- item 1-->
+                        <div class="w-full max-w-[548px] h-full mx-auto">
+                            <img class="mb-6" src="img/work01.png" alt="">                        
+                        <div class="flex justify-between items-center w-full">
+                        <div>                            
+                            <h3 class="h3">Modern Kitchen</h3>
+                            <p>Decor/Architecture</p>
+                        </div>
+                        <a href="#" class="button bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full">
+                            <span class="button_body">
+                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                            </span>                         
+                        </a>
+                        </div>
+                        </div>
+                        <!-- item 2-->
+                        <div class="w-full max-w-[548px] h-full mx-auto">
+                            <img class="mb-6" src="img/work02.png" alt="">                        
+                        <div class="flex justify-between items-center w-full">
+                        <div>                            
+                            <h3 class="h3">Modern Kitchen</h3>
+                            <p>Decor/Architecture</p>
+                        </div>
+                        <a href="#" class="button bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full">
+                            <span class="button_body">
+                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                            </span>                         
+                        </a>
+                        </div>
+                        </div>
+                        <!-- item 3-->
+                        <div class="w-full max-w-[548px] h-full mx-auto">
+                            <img class="mb-6" src="img/work03.png" alt="">                        
+                        <div class="flex justify-between items-center w-full">
+                        <div>                            
+                            <h3 class="h3">Modern Kitchen</h3>
+                            <p>Decor/Architecture</p>
+                        </div>
+                        <a href="#" class="button bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full">
+                            <span class="button_body">
+                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                            </span>                         
+                        </a>
+                        </div>
+                        </div> 
+                        <!-- item 4-->
+                        <div class="w-full max-w-[548px] h-full mx-auto">
+                            <img class="mb-6" src="img/work04.png" alt="">                        
+                        <div class="flex justify-between items-center w-full">
+                        <div>                            
+                            <h3 class="h3">Modern Kitchen</h3>
+                            <p>Decor/Architecture</p>
+                        </div>
+                        <a href="#" class="button bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full">
+                            <span class="button_body">
+                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                            </span>                         
+                        </a>
+                        </div>
+                        </div>                                                                     
+                     </div>
+                </div>
+              </section>
+              <section class="stats mt-[80px] xl:mt-[150px] relative z-20 bg-accent-secondary py-[80px] xl:py-[150px]">
+                <div class="container mx-auto">
+                    <!-- grid -->
+                     <div class="grid grid-cols-1 xl:grid-cols-4 gap-12">
+                    <!-- grid items -->
+                        <div class="stats__item text-center xl:border-r xl:border-accent">
+                            <h3 class="h1 font-primary text-accent">12</h3>
+                            <p>Year Of experience</p>
+                        </div>
+                     
+                    <!-- grid items -->
+                    
+                        <div class="stats__item text-center xl:border-r xl:border-accent">
+                            <h3 class="h1 font-primary text-accent">85</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                   
+                    <!-- grid items -->
+                 
+                        <div class="stats__item text-center xl:border-r xl:border-accent">
+                            <h3 class="h1 font-primary text-accent">15</h3>
+                            <p>Active Projects</p>
+                        </div>
+                    
+                    <!-- grid items -->
+                 
+                        <div class="stats__item text-center xl:border-r1">
+                            <h3 class="h1 font-primary text-accent">95</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                     </div>                                                               
+                </div>
+              </section>
+              <!-- news -->
+               <section class="news mt-[80px] xl:mt-[150px] relative z-20">
+                    <div class="container mx-auto px-0">
+                        <!-- text -->
+                         <div class="max-w-[810px] mx-auto text-center mb-[52px]">
+                            <h2 class="news__title h2 mb-3">Articles & News</h2>
+                            <p class="news_subtitle">
+                                It is a long established fact that a reader will be distracted by the of readable content of page lookings at its layouts points.
+                            </p>
+                         </div>
+                        <!-- grid -->
+                         <div class="news__grid grid grid-cols-1 xl:grid-cols-3 gap-[27px]">
+                            <!-- grid item 1-->
+                             <div class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursosr-pointer mx-auto xl:mx-0">
+                                <img class="mb-5" src="img/new01.png" alt="" />
+                                <div class="flex flex-col gap-[30px]">
+                                    <h3 class="h3">
+                                        Let's Get Solution For Building Construction Work
+                                    </h3>
+                                    <div class="flex items-center justify-between">
+                                        <p class="text-base">22 June, 2024</p>
+                                        <a href="#" class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all">
+                                            <span class="button_body">                                               
+                                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                            </span>                         
+                                        </a>
+                                    </div>
+                                </div>
+                             </div>
+                            <!-- grid item 2-->
+                            <div class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursosr-pointer mx-auto xl:mx-0">
+                                <img class="mb-5" src="img/new02.png" alt="" />
+                                <div class="flex flex-col gap-[30px]">
+                                    <h3 class="h3">
+                                        Let's Get Solution For Building Construction Work
+                                    </h3>
+                                    <div class="flex items-center justify-between">
+                                        <p class="text-base">22 June, 2024</p>
+                                        <a href="#" class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all">
+                                            <span class="button_body">                                               
+                                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                            </span>                         
+                                        </a>
+                                    </div>
+                                </div>
+                             </div>   
+                            <!-- grid item 3-->
+                            <div class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursosr-pointer mx-auto xl:mx-0">
+                                <img class="mb-5" src="img/new03.png" alt="" />
+                                <div class="flex flex-col gap-[30px]">
+                                    <h3 class="h3">
+                                        Let's Get Solution For Building Construction Work
+                                    </h3>
+                                    <div class="flex items-center justify-between">
+                                        <p class="text-base">22 June, 2024</p>
+                                        <a href="#" class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all">
+                                            <span class="button_body">                                               
+                                                <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+                                            </span>                         
+                                        </a>
+                                    </div>
+                                </div>
+                             </div>                                                                                 
+                         </div>
+                    </div>
+               </section>
+               <section class="contact mt-[80px] xl:mt-[150px] relative z-20">
+                
+               </section>
         <!-- temporary div-->
         <div class="h-[3000px]"></div>
         </main>
     </div>
+         <!-- Scroll Reveal js -->
+         <script src="js/scrollreveal.min.js"></script>  
+         <!-- Swiper -->
+         <script src="js/swiper-bundle.min.js"></script>
+         <!-- main js -->
+         <script src="js/main.js"></script>
 </body>
 </html>
